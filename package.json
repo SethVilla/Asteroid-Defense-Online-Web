@@ -2,7 +2,7 @@
   "name": "asteroid-defense-online",
   "version": "1.0.0",
   "scripts": {
-    "build": "git lfs pull && echo '=== LFS Status ===' && git lfs ls-files -s && echo '=== Checking actual file size ===' && ls -lh Build/asteroid-defense-online.data && echo '=== First bytes of file ===' && head -c 100 Build/asteroid-defense-online.data | od -c"
+    "build": "git lfs pull && echo '✅ LFS file ready:' && ls -lh Build/ && echo '✅ Build complete'"
   }
 }
 
