@@ -51,11 +51,8 @@
         updateBannerVisibility();
       }
 
-      // Option 1: Load from local Build folder (default)
-      var buildUrl = "Build";
-      
-      // Option 2: Load from external CDN/GitHub Releases (if LFS fails)
-      // var buildUrl = "https://github.com/SethVilla/Asteroid-Defense-Online-Web/releases/download/v1.0";
+      // Loading Build files from GitHub Releases
+      var buildUrl = "https://github.com/SethVilla/Asteroid-Defense-Online-Web/releases/download/v1.0";
       
       var loaderUrl = buildUrl + "/asteroid-defense-online.loader.js";
       var config = {
@@ -63,7 +60,7 @@
         dataUrl: buildUrl + "/asteroid-defense-online.data",
         frameworkUrl: buildUrl + "/asteroid-defense-online.framework.js",
         codeUrl: buildUrl + "/asteroid-defense-online.wasm",
-        streamingAssetsUrl: "StreamingAssets",
+        streamingAssetsUrl: buildUrl,
         companyName: "DefaultCompany",
         productName: "Assignment 3",
         productVersion: "0.1.0",
