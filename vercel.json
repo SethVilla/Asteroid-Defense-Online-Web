@@ -1,6 +1,5 @@
 {
-  "installCommand": "git lfs install && git lfs pull",
-  "buildCommand": "echo 'Build files ready'",
+  "buildCommand": "git lfs pull",
   "headers": [
     {
       "source": "/Build/(.*\\.data)",
