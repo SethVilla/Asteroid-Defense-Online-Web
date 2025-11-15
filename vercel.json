@@ -1,6 +1,4 @@
 {
-  "buildCommand": "git lfs pull && echo 'LFS files downloaded'",
-  "outputDirectory": ".",
   "headers": [
     {
       "source": "/Build/(.*\\.data)",

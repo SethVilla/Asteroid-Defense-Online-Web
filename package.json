@@ -1,0 +1,8 @@
+{
+  "name": "asteroid-defense-online",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "git lfs pull && echo 'LFS pull completed'"
+  }
+}
+
