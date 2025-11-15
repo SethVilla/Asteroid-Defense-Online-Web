@@ -1,7 +1,4 @@
 {
-  "git": {
-    "lfs": true
-  },
   "headers": [
     {
       "source": "/Build/(.*\\.data)",
